@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+index,
+body {
+  background: radial-gradient(
+      circle at left,
+      hsl(256, 48%, 67%),
+      #7b5bdb 10%,
+
+      transparent 25%
+    ),
+    radial-gradient(
+      circle at right,
+
+      hsl(256, 48%, 67%),
+      #7b5bdb 10%,
+      transparent 60%
+    ),
+    rgb(0, 0, 0);
+
+  height: 100vh;
+}
