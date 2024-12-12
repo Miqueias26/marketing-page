@@ -10,7 +10,7 @@ function Header() {
         </li>
         <li>
           {" "}
-          <a href="">Link2</a>
+          <a href="">Link2s</a>
         </li>
         <li>
           {" "}
