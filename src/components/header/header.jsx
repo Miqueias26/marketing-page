@@ -3,7 +3,6 @@ import JMDevs from "../../assets/img/JM Agency-Photoroom.png";
 function Header() {
   return (
     <div className="navbar">
-<<<<<<< HEAD
       <div className="logo">
         <img src={JMDevs} alt="JM Devs logo" />
       </div>
@@ -31,31 +30,6 @@ function Header() {
           </li>
         </ul>
       </div>
-=======
-      <p>Logo</p>
-      <ul>
-        <li>
-          {" "}
-          <a href="">Link1s Miqueias</a>
-        </li>
-        <li>
-          {" "}
-          <a href="">Link2sMiqueias</a>
-        </li>
-        <li>
-          {" "}
-          <a href="">Link3</a>
-        </li>
-        <li>
-          {" "}
-          <a href="">Link4 Joao</a>
-        </li>
-        <li>
-          {" "}
-          <a href="">Link5 Joao</a>
-        </li>
-      </ul>
->>>>>>> 69ef3c60b5b14f82a4ff4da3b368974a21e287b9
 
       <div className="user">
         <a href="" className="login">
