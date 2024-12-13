@@ -1,47 +1,61 @@
 .navbar {
   display: flex;
   justify-content: space-between;
-  padding: 13px;
+  padding: 0 10px;
   align-items: center;
+}
 
-  p {
-    color: #ffff;
-    font-size: 2rem;
-  }
+.logo img {
+  width: 110px;
+  height: auto;
+}
 
-  ul {
-    display: flex;
-    gap: 16px;
-    list-style: none;
+.links-content ul {
+  padding-left: 110px;
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+.links-content a {
+  text-decoration: none;
+  color: rgb(213, 213, 213);
+  font-size: 1.1rem;
+}
 
-    li,
-    a {
-      text-decoration: none;
-      color: #ffff;
-      gap: 20px;
-    }
-  }
+.links-content a:hover {
+  text-decoration: underline;
+}
+.user {
+  display: flex;
+  gap: 20px;
+  text-align: center;
+  align-items: center;
+}
 
-  .button-service a {
-    text-decoration: none;
-    color: #ffff;
-    gap: 20px;
-  }
+.user .login {
+  border-radius: 50px;
+  color: white;
+  border: solid white;
+  padding: 10px 35px;
+  text-decoration: none;
+}
 
-  .login {
-    padding: 8px 35px;
-    border-radius: 50px;
-    border: none;
-  }
-  .account {
-    padding: 8px 35px;
-    border-radius: 50px;
-    border: none;
-  }
+.user .login:hover {
+  background: linear-gradient(45deg, #ffffff, #ffffff, #ffffff);
+  color: rgb(55, 27, 181);
+}
+.user .account {
+  border-radius: 50px;
+  border: solid rgb(84, 74, 220);
+  text-decoration: none;
+  color: rgb(55, 27, 181);
+  padding: 10px 35px;
+  background: linear-gradient(45deg, #ffffff, #ffffff, #f5f5f5);
+}
 
-  .login {
-    background: none;
-    color: white;
-    border: solid white;
-  }
+.user .account:hover {
+  color: white;
+  border: solid rgb(255, 255, 255);
+  background: none;
+  text-decoration: none;
 }

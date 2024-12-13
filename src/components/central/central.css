@@ -1,23 +1,25 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
 .central-content {
   color: white;
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin-top: 25vh;
+  margin-top: 20vh;
 }
 
 .central-content h1 {
   padding-bottom: 20px;
-  font-size: 2.3rem;
-  font-family: "Roboto", sans-serif;
+  font-size: 3.7rem;
   font-weight: 300;
 }
 
-.central-content p {
-  font-family: "Roboto", sans-serif;
+.central-content img {
   font-weight: 200;
-  font-size: 13px;
-  margin-bottom: 10px;
+  font-size: 15px;
+  margin-bottom: 20px;
 }
 
 .buttons-service {
@@ -29,16 +31,18 @@
 
 .offer,
 .service {
-  padding: 8px 35px;
+  padding: 10px 35px;
   border-radius: 50px;
   border: none;
   text-decoration: none;
+  text-align: center;
 }
 
 .buttons-service .offer {
   background: linear-gradient(45deg, #cccccc, #ffff, #f1f1f1);
   color: black;
   border: none;
+  text-align: center;
 }
 
 .buttons-service .service {

@@ -5,12 +5,12 @@ function Central() {
     <>
       <div className="central-content">
         <h1>
-          Boost your brand&apos;s success with marketing strategies that <br />
-          connect, engage, and convert in success right now .
+          Boost your brand&apos;s success <br /> with a real AI-marketing
         </h1>
         <p>
           Elevate your brand with innovative marketing solutions that drive
-          engagement <br /> build connections, and deliver measurable success
+          engagement <br /> build connections, premium experience and deliver
+          measurable success
         </p>
         <div className="buttons-service">
           <a href="" className="offer">

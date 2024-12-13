@@ -1,43 +1,45 @@
 import "./header.css";
+import JMDevs from "../../assets/img/JM Agency-Photoroom.png";
 function Header() {
   return (
     <div className="navbar">
-      <p>Logo</p>
-      <ul>
-        <li>
-          {" "}
-          <a href="">Link1s</a>
-        </li>
-        <li>
-          {" "}
-          <a href="">Link2s</a>
-        </li>
-        <li>
-          {" "}
-          <a href="">Link3</a>
-        </li>
-        <li>
-          {" "}
-          <a href="">Link4</a>
-        </li>
-        <li>
-          {" "}
-          <a href="">Link5</a>
-        </li>
-      </ul>
+      <div className="logo">
+        <img src={JMDevs} alt="JM Devs logo" />
+      </div>
+      <div className="links-content">
+        <ul>
+          <li>
+            {" "}
+            <a href="">Home</a>
+          </li>
+          <li>
+            {" "}
+            <a href="">Services</a>
+          </li>
+          <li>
+            {" "}
+            <a href="">Team</a>
+          </li>
+          <li>
+            {" "}
+            <a href="">Partners</a>
+          </li>
+          <li>
+            {" "}
+            <a href="">About Us</a>
+          </li>
+        </ul>
+      </div>
 
-      <ul>
-        <li>
-          <a href="" className="login">
-            Login
-          </a>
-        </li>
-        <li>
-          <a href="" className="account">
-            Create account
-          </a>
-        </li>
-      </ul>
+      <div className="user">
+        <a href="" className="login">
+          Login
+        </a>
+
+        <a href="" className="account">
+          Beginner
+        </a>
+      </div>
     </div>
   );
 }
