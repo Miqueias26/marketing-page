@@ -46,14 +46,25 @@
 
 .buttons-service .offer {
   background: linear-gradient(45deg, #cccccc, #ffff, #f1f1f1);
-  color: black;
-  border: none;
+  color: rgb(93, 24, 110);
+  border: solid rgb(59, 17, 92);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.buttons-service .offer:hover {
+  background: none;
+  border: solid whitesmoke;
+  color: white;
+}
+
 .buttons-service .service {
   border: solid white;
   color: white;
+}
+
+.buttons-service .service:hover {
+  background: linear-gradient(45deg, #cccccc, #ffff, #f1f1f1);
+  color: rgb(93, 24, 110);
 }

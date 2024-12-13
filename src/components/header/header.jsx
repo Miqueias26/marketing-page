@@ -1,5 +1,5 @@
 import "./header.css";
-import JMDevs from "../../assets/img/JM Agency-Photoroom.png";
+import JMDevs from "../../assets/img/JM AgencyOF-Photoroom.png";
 function Header() {
   return (
     <div className="navbar">
