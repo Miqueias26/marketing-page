@@ -10,10 +10,16 @@
   margin-top: 20vh;
 }
 
+.central-content p {
+  font-size: 0.9rem;
+  font-weight: 200;
+  color: #d6d6d6;
+}
+
 .central-content h1 {
   padding-bottom: 20px;
-  font-size: 3.7rem;
-  font-weight: 300;
+  font-size: 3.9rem;
+  font-weight: 400;
 }
 
 .central-content img {
@@ -42,7 +48,9 @@
   background: linear-gradient(45deg, #cccccc, #ffff, #f1f1f1);
   color: black;
   border: none;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .buttons-service .service {
