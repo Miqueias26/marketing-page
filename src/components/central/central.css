@@ -66,3 +66,14 @@
   background: linear-gradient(45deg, #cccccc, #ffff, #f1f1f1);
   color: rgb(93, 24, 110);
 }
+
+@media (max-width: 768px) {
+  .central-content h1 {
+    font-size: 2rem;
+    padding: 1vh 1vh 3vh 1vh;
+  }
+  .central-content p {
+    font-size: 14px;
+    padding: 1vh 1vh 3vh 1vh;
+  }
+}

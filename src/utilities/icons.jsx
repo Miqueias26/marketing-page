@@ -1,4 +1,5 @@
 import PropTypes from "prop-types";
+import "./icons.css";
 import logo2 from "../assets/img/apple.png";
 import logo3 from "../assets/img/github.png";
 import logo4 from "../assets/img/apple.png";
@@ -21,7 +22,7 @@ function Prop({ url, title }) {
 
 function Icons() {
   return (
-    <div>
+    <div className="icons">
       <Prop url={logo2} title="Amazon Icons" />
       <Prop url={logo3} title="Amazon Icons" />
       <Prop url={logo4} title="Amazon Icons" />

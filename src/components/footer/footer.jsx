@@ -10,6 +10,9 @@ const Footer = () => {
       <div className="footer-img">
         <Icons />
       </div>
+      <div className="copyright">
+        <p>&copy;Dev CODE</p>
+      </div>
     </div>
   );
 };
