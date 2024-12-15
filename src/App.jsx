@@ -9,8 +9,10 @@ function App() {
       <div className="headerOf">
         <Header />
       </div>
-      <div className="CentralOf">
+      <div className="centralOf">
         <Central />
+      </div>
+      <div className="footerOf">
         <Footer />
       </div>
     </>
