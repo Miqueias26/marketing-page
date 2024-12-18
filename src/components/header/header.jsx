@@ -1,12 +1,7 @@
 import "./header.css";
-<<<<<<< HEAD
-import { NavbarDesktop, NavbarMobile } from "./navbar/navbar";
-
-=======
 import JMDevs from "../../assets/img/JM AgencyOF-Photoroom.png";
 import { IoMenuOutline } from "react-icons/io5";
 import { useState } from "react";
->>>>>>> e5908b02ebefca8792316d1d89858226f56d9130
 function Header() {
   const [showNav, setShowNav] = useState(false);
 
@@ -20,12 +15,6 @@ function Header() {
 
   return (
     <div className="navbar">
-<<<<<<< HEAD
-      <NavbarDesktop />
-
-      <div className="mobile">
-        <NavbarMobile />;
-=======
       {showNav && (
         <div className="toogle-model">
           <div className="toogle-model-menu">
@@ -99,7 +88,6 @@ function Header() {
             <IoMenuOutline />
           </button>
         )}
->>>>>>> e5908b02ebefca8792316d1d89858226f56d9130
       </div>
     </div>
   );
