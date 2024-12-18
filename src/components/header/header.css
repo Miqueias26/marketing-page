@@ -1,7 +1,10 @@
+/* Navbar */
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
+  padding: 10px 20px;
 }
 
 .logo img {
@@ -15,6 +18,7 @@
   gap: 40px;
   list-style: none;
 }
+
 .links-content a {
   text-decoration: none;
   color: rgb(213, 213, 213);
@@ -24,6 +28,7 @@
 .links-content a:hover {
   text-decoration: underline;
 }
+
 .user {
   display: flex;
   gap: 20px;
@@ -44,6 +49,7 @@
   background: linear-gradient(45deg, #f5f5f5, #ffffff, #ffffff);
   color: rgb(55, 27, 181);
 }
+
 .user .account {
   border-radius: 50px;
   border: 1px solid transparent;
@@ -71,48 +77,62 @@
 }
 
 .toogle-model {
-  text-align: center;
-  position: absolute;
-  top: 0;
+  position: fixed;
+  top: -100%;
   left: 0;
   width: 100%;
-  height: 75%;
-  z-index: 10;
-  margin-bottom: 20px;
-  padding: 20px;
   background: linear-gradient(45deg, #ffffff, #a1a0a1, #f7f3f7);
+  overflow: hidden;
+  opacity: 0;
+  transition: top 0.5s ease-out, opacity 0.5s ease-out;
+}
 
-  h1 {
-    margin-bottom: 20px;
-  }
+.toogle-model.show {
+  top: 0;
+  opacity: 1;
+}
 
-  ul {
-    list-style: none;
+.toogle-model-menu {
+  text-align: center;
+  padding: 20px;
+}
 
-    li {
-      padding: 18px;
-      cursor: pointer;
-    }
+.toogle-model ul {
+  list-style: none;
+  padding: 20px;
+  margin: 0;
+}
 
-    li a {
-      color: rgb(48, 7, 58);
-      text-decoration: none;
-      font-weight: 500;
-      font-size: 18px;
-    }
-  }
+.toogle-model li {
+  padding: 18px;
+  cursor: pointer;
+}
+
+.toogle-model li a {
+  color: rgb(48, 7, 58);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
 }
 
 .toogle-close {
+  margin-top: 20px;
   background: linear-gradient(45deg, #360f3d, #1f0f1f, #0e0c0e);
   color: #fff;
-  padding: 8px 35px;
+  padding: 8px 39px;
   border: none;
   border-radius: 40px;
   font-weight: 500;
   font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
+.toogle-close:hover {
+  background-color: #4e2a5a;
+}
+
+/* Responsividade para dispositivos móveis */
 @media (max-width: 768px) {
   .toogle-menu {
     display: flex;
